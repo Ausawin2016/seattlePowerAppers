@@ -12,6 +12,10 @@
 - [Pricing](https://powerapps.microsoft.com/en-us/pricing/)
 - [O365 Plans that include PowerApps](https://docs.microsoft.com/en-gb/powerapps/administrator/pricing-billing-skus#licenses)
 
+## Structured Learning
+
+- [edX Course: Developing Business Applications with Microsoft PowerApps, CDS, and Flow](https://courses.edx.org/courses/course-v1:Microsoft+DAT227x+3T2018/course/)
+
 ## Power Platform YouTube: "Folks to follow"
 
 - [Mr Dang](https://www.youtube.com/channel/UCHFgcqnAXS_g4w2xtN5dIAg)
