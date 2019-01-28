@@ -117,7 +117,8 @@ These are some great blogs to follow to get the latest, greatest PowerPlatform i
 - [PowerApps and Flow Governance White Paper](https://aka.ms/powerappsadminwhitepaper)
   - Very useful information for enterprise PowerApps/Flow governance.
 
-## Pinterest Inspiration
+## Inspiration
 
 - [WebApps](https://www.pinterest.com/curlsky/webapps/)
   - Lots of inspiration here!
+- [New Customer On Boarding (UI/UX Teardowns)](https://www.useronboard.com/user-onboarding-teardowns/)
