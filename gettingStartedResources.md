@@ -1,7 +1,7 @@
 # PowerApps support and learning resources
 
 - Created: Thu Nov 1 07:09:49 PDT 2018
-- Updated: Thu Jan 17 21:56:44 PST 2019
+- Updated: Mon Jan 28 07:25:44 PST 2019
 
 ## PowerPlatform Documentation
 
