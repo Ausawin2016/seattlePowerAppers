@@ -122,3 +122,8 @@ These are some great blogs to follow to get the latest, greatest PowerPlatform i
 - [WebApps](https://www.pinterest.com/curlsky/webapps/)
   - Lots of inspiration here!
 - [New Customer On Boarding (UI/UX Teardowns)](https://www.useronboard.com/user-onboarding-teardowns/)
+
+## UI / UX
+
+- [Hex Color Explorer](https://www.color-hex.com/)
+  - Get color inspiration for your application. Copy the hex values into your Fill/BorderColor/etc. Properties.
