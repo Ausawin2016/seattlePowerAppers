@@ -40,10 +40,6 @@ Resources for members (and non-members) of the Seattle PowerAppers Meetup Group.
 
 - Updated 1/31/2019
 
-### [PowerApps Licensing Deep Dive](./powerappsLicensing.md)
-
-- Updated 1/31/2019
-
 ### [Favorite PowerApps API's](./favoriteAPIs.md)
 
 - Updated 1/11/2019
