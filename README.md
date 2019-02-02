@@ -1,7 +1,7 @@
 # Seattle PowerAppers
 Resources for members (and non-members) of the Seattle PowerAppers Meetup Group.
 
-[## Meetup 1: Introduction to PowerApps](https://www.meetup.com/Seattle-PowerAppers/events/jkkrkqyxnbpc/)
+## [Meetup 1: Introduction to PowerApps](https://www.meetup.com/Seattle-PowerAppers/events/jkkrkqyxnbpc/)
 
 - Tuesday October 30th 2018 6:00 PM
 - Our inagural Meetup! 
