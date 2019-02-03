@@ -1,7 +1,7 @@
 # PowerApps support and learning resources
 
 - Created: Thu Nov 1 07:09:49 PDT 2018
-- Updated: Thu Jan 31 21:58:44 PST 2019
+- Updated: Sun Feb 3 08:53:44 PST 2019
 
 ## PowerPlatform Documentation
 
@@ -60,7 +60,7 @@
     - Well done and exuberant explanations of PowerApps functionalities.
 - [April Dunham](https://www.youtube.com/channel/UCz_x76EBX5UXsV27drGNh6w)
     - Excellent PowerApps videos from basic to advanced.
-- [Info PowerApps]()
+- [PowerApps.Rocks!](https://www.youtube.com/channel/UCfEU2rhKEMRaZ1mEdt3zwrg)
     
 ## PowerPlatform Twitter "Folks to Follow"
 
@@ -73,6 +73,7 @@
 - [Tim aka timl](https://twitter.com/ShortForTim)
 - [Antoinette Naranjo](https://twitter.com/tianaranjo)
 - [Office Developer](https://twitter.com/OfficeDev)
+- [PowerApps.Rocks!](https://twitter.com/powerappsrocks)
 
 ## PowerPlatform Communities
 
@@ -117,13 +118,12 @@ These are some great blogs to follow to get the latest, greatest PowerPlatform i
 - [PowerApps and Flow Governance White Paper](https://aka.ms/powerappsadminwhitepaper)
   - Very useful information for enterprise PowerApps/Flow governance.
 
-## Inspiration
+## UI / UX / Inspiration
 
 - [WebApps](https://www.pinterest.com/curlsky/webapps/)
   - Lots of inspiration here!
 - [New Customer On Boarding (UI/UX Teardowns)](https://www.useronboard.com/user-onboarding-teardowns/)
-
-## UI / UX
-
 - [Hex Color Explorer](https://www.color-hex.com/)
   - Get color inspiration for your application. Copy the hex values into your Fill/BorderColor/etc. Properties.
+- [UX Onboarding Screenshots](https://www.uxscreenshots.com/transit)
+  - Get ideas for your apps!
