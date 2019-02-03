@@ -97,6 +97,8 @@ These are some great blogs to follow to get the latest, greatest PowerPlatform i
     - One of the best!
 - [Carlos Figueira's Personal Blog](https://www.carlosag.net/)
     - Awesome, awesome work!
+- [37jotter.tech's Blog](https://37jotter.tech/)
+    - Very innovative use of the PowerPlatform
 
 ## Live Events
 
