@@ -1,7 +1,7 @@
 # PowerApps support and learning resources
 
 - Created: Thu Nov 1 07:09:49 PDT 2018
-- Updated: Sun Feb 3 08:53:44 PST 2019
+- Updated: Thur Feb 7 20:28:00 PST 2019
 
 ## PowerPlatform Documentation
 
@@ -15,6 +15,8 @@
 ## Structured Learning
 
 - [edX Course: Developing Business Applications with Microsoft PowerApps, CDS, and Flow](https://courses.edx.org/courses/course-v1:Microsoft+DAT227x+3T2018/course/)
+- [Microsoft Learn](https://docs.microsoft.com/en-us/learn/)
+  - GREAT resources for PowerApps/PowerBI/Flow and all kinds of Azure stuff
 
 ## Power Platform YouTube: "Folks to follow"
 
