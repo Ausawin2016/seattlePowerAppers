@@ -6,6 +6,10 @@
 ## PowerPlatform Documentation
 
 - [Official (AWESOME!) Documentation](https://docs.microsoft.com/en-us/powerapps/powerapps-overview)
+
+## System Requirements
+
+- [Hard/Software and Config. Requirements](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/limits-and-config)
   
 ## PowerPlatform Licensing
 
