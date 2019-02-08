@@ -32,7 +32,7 @@ Resources for members (and non-members) of the Seattle PowerAppers Meetup Group.
 ## [Meetup 5: Real World PowerApps: Session 2](https://www.meetup.com/Seattle-PowerAppers/events/258614987/)
 
 - Saturday February 23rd 2019 11:00 AM
-- [West Seattle Library](https://www.spl.org/hours-and-locations/west-seattle-branch)
+- [Delridge Library](https://www.spl.org/hours-and-locations/delridge-branch)
 
 ## Resources
 
