@@ -21,6 +21,7 @@ Tags: meetup, real world powerapps, coffee, small business, retail
 
 ### Initial Setup
 
+
 - Download Excel spreadsheet from SeattlePowerAppers Github account
 - Fire up laptops and visit `create.powerapps.com`
 - Choose `Tablet` layout
