@@ -17,25 +17,25 @@
 - Ask [Us](mailto:info@powerapps.rocks) to share the site with you
 - We will add you to the site and send you a link
 - Open the link and click `Microsoft Account`
-    - ![](./2019-01-26-08-15-11.png)
+    - ![](../assets/screenshots/2019-01-26-08-15-11.png)
 - Login with your Microsoft Account (@Outlook.com, @Hotmail.com, etc.)
-    - ![](./2019-01-26-08-16-27.png)
+    - ![](../assets/screenshots/2019-01-26-08-16-27.png)
 - You're in!
-    - ![](./2019-01-26-08-22-19.png)
+    - ![](../assets/screenshots/2019-01-26-08-22-19.png)
 
 ### No Microsoft Account?
 
 - Click "Create one!"
 - Choose a unique email address (@outlook.com), click `Next`
-    - ![](./2019-01-26-08-18-47.png)
-    - ![](./2019-01-26-08-19-34.png)
+    - ![](../assets/screenshots/2019-01-26-08-18-47.png)
+    - ![](../assets/screenshots/2019-01-26-08-19-34.png)
 - Create a good password and click `Next`
-    - ![](./2019-01-26-08-20-07.png)
+    - ![](../assets/screenshots/2019-01-26-08-20-07.png)
 - Enter a name and a birthdate
 - Type in the characters on the screen and click `Next`
-    - ![](./2019-01-26-08-21-26.png)
+    - ![](../assets/screenshots/2019-01-26-08-21-26.png)
 - You should now see the Seattle PowerAppers Sharepoint site
-    - ![](./2019-01-26-08-22-19.png)
+    - ![](../assets/screenshots/2019-01-26-08-22-19.png)
 - You might have to revisit [the original link](https://westseattle.sharepoint.com/realworld/) to open the site
 
 
