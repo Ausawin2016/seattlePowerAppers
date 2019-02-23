@@ -1,11 +1,15 @@
 # PowerApps support and learning resources
 
 - Created: Thu Nov 1 07:09:49 PDT 2018
-- Updated: Thu Jan 17 21:56:44 PST 2019
+- Updated: Thur Feb 7 20:28:00 PST 2019
 
 ## PowerPlatform Documentation
 
 - [Official (AWESOME!) Documentation](https://docs.microsoft.com/en-us/powerapps/powerapps-overview)
+
+## System Requirements
+
+- [Hard/Software and Config. Requirements](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/limits-and-config)
   
 ## PowerPlatform Licensing
 
@@ -15,6 +19,8 @@
 ## Structured Learning
 
 - [edX Course: Developing Business Applications with Microsoft PowerApps, CDS, and Flow](https://courses.edx.org/courses/course-v1:Microsoft+DAT227x+3T2018/course/)
+- [Microsoft Learn](https://docs.microsoft.com/en-us/learn/)
+  - GREAT resources for PowerApps/PowerBI/Flow and all kinds of Azure stuff
 
 ## Power Platform YouTube: "Folks to follow"
 
@@ -60,7 +66,7 @@
     - Well done and exuberant explanations of PowerApps functionalities.
 - [April Dunham](https://www.youtube.com/channel/UCz_x76EBX5UXsV27drGNh6w)
     - Excellent PowerApps videos from basic to advanced.
-- [Info PowerApps]()
+- [PowerApps.Rocks!](https://www.youtube.com/channel/UCfEU2rhKEMRaZ1mEdt3zwrg)
     
 ## PowerPlatform Twitter "Folks to Follow"
 
@@ -73,6 +79,7 @@
 - [Tim aka timl](https://twitter.com/ShortForTim)
 - [Antoinette Naranjo](https://twitter.com/tianaranjo)
 - [Office Developer](https://twitter.com/OfficeDev)
+- [PowerApps.Rocks!](https://twitter.com/powerappsrocks)
 
 ## PowerPlatform Communities
 
@@ -96,6 +103,8 @@ These are some great blogs to follow to get the latest, greatest PowerPlatform i
     - One of the best!
 - [Carlos Figueira's Personal Blog](https://www.carlosag.net/)
     - Awesome, awesome work!
+- [37jotter.tech's Blog](https://37jotter.tech/)
+    - Very innovative use of the PowerPlatform
 
 ## Live Events
 
@@ -117,7 +126,12 @@ These are some great blogs to follow to get the latest, greatest PowerPlatform i
 - [PowerApps and Flow Governance White Paper](https://aka.ms/powerappsadminwhitepaper)
   - Very useful information for enterprise PowerApps/Flow governance.
 
-## Pinterest Inspiration
+## UI / UX / Inspiration
 
 - [WebApps](https://www.pinterest.com/curlsky/webapps/)
   - Lots of inspiration here!
+- [New Customer On Boarding (UI/UX Teardowns)](https://www.useronboard.com/user-onboarding-teardowns/)
+- [Hex Color Explorer](https://www.color-hex.com/)
+  - Get color inspiration for your application. Copy the hex values into your Fill/BorderColor/etc. Properties.
+- [UX Onboarding Screenshots](https://www.uxscreenshots.com/transit)
+  - Get ideas for your apps!
