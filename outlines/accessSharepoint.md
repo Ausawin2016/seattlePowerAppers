@@ -1,14 +1,22 @@
-# How to access Seattle PowerAppers Sharepoint Site
+---
+Author: Eric Thomas
+Organization: PowerApps.Rocks!
+Created Time and Date: Sat Jan 26 08:10:41 PST 2019
+Last Updated: Sat Feb 23 11:32:21 PST 2019
+Total Time:
+Categories: PowerApps Development
+Tags: meetup, real world powerapps, sharepoint, tutorials
+---
 
-- Created: Sat Jan 26 08:10:41 PST 2019
-- Updated: 
+# How to access Seattle PowerAppers Sharepoint Site
+ 
 - To contribute energy:
     - [Venmo](https://venmo.com/powerappsrocks)
     - [Patreon](https://patreon.com/powerappsrocks)
 
 ## Introduction
 
-- The [Seattle PowerAppers Sharepoint Site](https://westseattle.sharepoint.com/realworld/) is used to store and share images and files associated with the apps we build together. 
+- The [Seattle PowerAppers Sharepoint Site](https://westseattle.sharepoint.com/realworld/) can be used by Seattle PowerAppers Meetup Group Members to store and share images and files associated with the apps we build together. 
 - It is an "external-facing" Sharepoint site that is accessible by people **with a Microsoft account** of some kind (@outlook/@hotmail.com/etc.). 
 - Microsoft accounts are free. The instructions below guide you through how to login to the site and obtain a Microsoft email account if necessary.
 
@@ -37,6 +45,3 @@
 - You should now see the Seattle PowerAppers Sharepoint site
     - ![](../assets/screenshots/2019-01-26-08-22-19.png)
 - You might have to revisit [the original link](https://westseattle.sharepoint.com/realworld/) to open the site
-
-
-Qlop%ttv1
