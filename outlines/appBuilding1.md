@@ -12,33 +12,42 @@ Tags: meetup, real world powerapps, coffee, small business, retail
 
 ## Goals
 
-- Ensure everyone has PowerApps licenses
+- Ensure everyone has access to PowerApps
 - Download and Connect to the Data Source (Excel spreadsheet)
-- Create a new PowerApp, discuss options (phone/tablet, app settings, etc.)
+- Discuss initial app options and settings (phone/tablet, app settings, etc.)
 - Build out Phase 1 of Coffee Shop Application
 
-## Steps
+## Downloads
+
+- Download the Realworld PowerApps Session 2 [Asset Pack](https://github.com/SeaDude/seattlePowerAppers/tree/master/assets/session2)
+
+## Instructions
 
 ### Initial Setup
 
+1. Fire up laptops and visit `create.powerapps.com`
+2. Choose `Tablet` layout
+3. Select `View`, `Data Sources`, select `Import from Excel`
+4. Choose the `coffeeSpreadsheet.xlsx` file in the Asset Pack
 
-- Download Excel spreadsheet from SeattlePowerAppers Github account
-- Fire up laptops and visit `create.powerapps.com`
-- Choose `Tablet` layout
-- Select `View`, `Data Sources`, select `Import from Excel`
+### Configure Screen 1
 
-### SelectItems Screen
-
-- Rename Screen Control to `SelectItems`
-- Create Header and logo
-    - Header
-        - Control: Icon (Insert, Icon, Rectangle)
-        - Properties:
+1. Rename Screen Control to `SelectItems`
+2. Create Header and logo
+    - Header shape
+        - **Control Type:** Icon
+        - **Instruction:**
+            - Click `Insert` then `Icon`
+            - Select `Rectangle` near the bottom of the menu
+        - **Properties:**
             - Fill: `ColorValue("#BAE3F9")`
     - Salutation
-        - Control: Label
-        - Properties:
+        - **Control Type:** Label
+        - **Instruction:**
+            - Click `Insert` then `Label`
+        - **Properties:**
             - Text: `"Hello " & User().FullName & " !" & Char(10) & Now()`
+            - FontWeight: `FontWeight.Bold`
     - Logo
         - Control Type: Image
         - Properties:
