@@ -17,7 +17,7 @@
     - [Common Data Service](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/data-platform-intro)
     - A different data source
 
-## PowerApps Developer Licenses
+## PowerApps "Developer" Licenses
 
 - Everyone can be a developer... at first :)
   - [PowerApps with Office 365](https://docs.microsoft.com/en-us/powerapps/administrator/pricing-billing-skus#licenses)
@@ -30,19 +30,22 @@
     - Benefits: 
       - Create custom connectors in PowerApps and Flow
       - Create custom HTTP actions in Flow
-      - Use premium Connectors
+      - Use premium Connectors in apps
       - Advanced app management (usage dashboards, etc.)
       - Model and create data entities in Common Data Service
+      - Access to Preview Environment to try out the latest enhancements
   - [PowerApps Plan 2 Free Trial](https://docs.microsoft.com/en-us/powerapps/maker/signup-for-powerapps#upgrade-an-existing-license)
-    - Benefits: Gives you access to premium features
+    - Benefits: Gives you access to all premium features listed above
+    - CAREFUL!: When your trial expires, your apps are deleted
   - [PowerApps Community Plan](https://docs.microsoft.com/en-us/powerapps/maker/dev-community-plan)
     - Used primarily for learning and building skills
     - Caveat: Cannot share apps with anyone
 
-## PowerApps User Licenses
+## PowerApps "User" Licenses
 
-- All licenses above can be used
+- All "Developer" licenses above include "User" functionality
 - [PowerApps Plan 1](https://docs.microsoft.com/en-us/powerapps/administrator/pricing-billing-skus#powerapps-standalone-plan-1-and-plan-2)
+  - Kind of an "enhanced User" license
   - $7/user/month
   - Required for apps which use:
     - Premium Connectors
@@ -51,7 +54,7 @@
 
 ## PowerApps Connector Licenses
 
-- Connecting to "Things" requires costs
+- Connecting to "Things" outside of the O365 ecosystem (Sharepoint, OneDrive, Teams, etc.) will incur costs
 - [Microsoft Flow](https://us.flow.microsoft.com/en-us/pricing/)
   - Flow comes with many with Office 365 licenses
   - PowerApps licenses always include Flow
@@ -70,11 +73,12 @@
   - Azure Blob Storage
   - Azure Maps API
   - Etc.
-  - My Setup: 
+  - My Azure setup: 
     - Started with Free Trial ($200 credits for 1 month)
     - Transitioned to Pay-As-You-Go (currently ~$30/month)
 
 ## PowerApps Administration
 
 - [Admin Docs](https://docs.microsoft.com/en-us/powerapps/administrator/admin-guide)
-- [Feb 2019 Change Extension](https://techcommunity.microsoft.com/t5/Office-Retirement-Blog/UPDATED-Updates-to-Microsoft-Flow-and-PowerApps-for-Office-365/ba-p/289589)
+- [Enterprise Deployment Whitepaper](https://powerapps.microsoft.com/en-us/blog/powerapps-enterprise-deployment-whitepaper/)
+- [Feb 2019 Licensing Change Extension](https://techcommunity.microsoft.com/t5/Office-Retirement-Blog/UPDATED-Updates-to-Microsoft-Flow-and-PowerApps-for-Office-365/ba-p/289589)

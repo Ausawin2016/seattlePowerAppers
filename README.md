@@ -33,6 +33,9 @@ Resources for members (and non-members) of the Seattle PowerAppers Meetup Group.
 
 - Saturday February 23rd 2019 11:00 AM
 - [Delridge Library](https://www.spl.org/hours-and-locations/delridge-branch)
+- [Asset Pack](./assets/session2/session2.zip)
+- [App](./apps/RealWorldSession2.msapp)
+- [App Building Instructions](./outlines/RealWorldSession2Instructions.md)
 
 ## Resources
 
