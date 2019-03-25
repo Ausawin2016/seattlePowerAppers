@@ -2,7 +2,7 @@
 Author: Eric Thomas
 Organization: PowerApps.Rocks!
 Created Time and Date: Tue Jan 22 18:34:58 PST 2019
-Last Updated: Sun Mar 24 11:15:03 PDT 2019
+Last Updated: Sun Mar 24 22:17:25 PDT 2019
 Total Time:
 Categories: PowerApps Development
 Tags: meetup, real world powerapps, coffee, small business, retail
@@ -36,9 +36,12 @@ Tags: meetup, real world powerapps, coffee, small business, retail
 
 ## App and Asset Downloads
 
-- Download the Realworld PowerApps Session 2 [Asset Pack](./assets/session2/session2.zip) and [App](./apps/RealWorldSession2App.msapp)
-- Save them somewhere logical
+- Download the Realworld PowerApps [Session 2 Asset Pack](./assets/session2.zip)
+    - This asset pack contains the latest data and sample app we'll be working from.
+- Save this somewhere logical
 - Extract the `session2.zip` file so its accessible
+- Begin the exercises below by building the app as outlined below. 
+    - Do not import the app straightaway unless you just want to dissect it.
 
 ## Instructions
 
@@ -49,8 +52,7 @@ Tags: meetup, real world powerapps, coffee, small business, retail
 3. Select `View`, `Data Sources`, select `Import from Excel`
 4. Choose the `cosffeeShopData.xlsx` file in the Asset Pack
 5. Select all tables
-6. Click `File`, then `Media`, then `Browse`
-7. Import all the images from the Asset Pack
+6. Choose `File` then `Save`. Name this new app something memorable.
 
 ### Configure the Menu Screen
 
@@ -73,6 +75,7 @@ For the following instructions, remember the screen size for our app is 1366 x 7
         - Y: `menu_screen.Height / 10`
         - Width: `menu_screen.Width`
         - Height: `menu_screen.Height / 10`
+
 - **Salutation**
     - **Control Type:** Label
     - **Instructions:**
@@ -85,6 +88,7 @@ For the following instructions, remember the screen size for our app is 1366 x 7
         - Width: `Len(salutation_1.Text) * 10`
         - Height: `header_1.Y + (header_1.Height / 2.5)`
         - FontWeight: `FontWeight.Semibold`
+
 - **Logo**
     - **Control Type:** Image
     - **Instructions:**
@@ -115,6 +119,7 @@ For the following instructions, remember the screen size for our app is 1366 x 7
         - TemplateSize: `245`
         - OnSelect: `Navigate(submenu_screen, Cover)` 
             - NOTE: This will cause an error until you duplicate the `menu_screen` and name it accordingly (step 5 below :) ).
+
     - **Subcontrol Type:** Image
         - NOTE: These "subcontrols" MUST be placed INSIDE the `menu_gallery`. It can be tricky to correctly place subcontrols.
         - **Instructions:**
@@ -128,6 +133,7 @@ For the following instructions, remember the screen size for our app is 1366 x 7
         - Y: `0`
         - Width: `325`
         - Height: `175`
+
     - **Subcontrol Type:** Label
         - **Instructions:**
             - Click `Insert` then `Label`
@@ -157,7 +163,7 @@ For the following instructions, remember the screen size for our app is 1366 x 7
 
 ### Configure the Submenu Screen
 
-1. Rename the screen control to `submenu_screen`
+1. Rename the duplicated screen control to `submenu_screen`
 
 2. Create Submenu Gallery, Submenu Icons and Descriptions
 
