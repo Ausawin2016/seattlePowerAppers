@@ -36,7 +36,7 @@ Resources for members (and non-members) of the Seattle PowerAppers Meetup Group.
 - [Asset Pack](./assets/session2.zip)
 - [App Building Instructions](./outlines/RealWorldSession2Instructions.md)
 
-## [Meetup 6: Real World PowerApps: Session 3](https://www.meetup.com/Seattle-PowerAppers/events/258614987/)
+## [Meetup 6: Real World PowerApps: Session 3](https://www.meetup.com/Seattle-PowerAppers/events/259621354/)
 
 - Saturday May 30th 2019 11:00 AM
 - [Delridge Library](https://www.spl.org/hours-and-locations/delridge-branch)
