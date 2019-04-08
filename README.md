@@ -7,12 +7,6 @@ Resources for members (and non-members) of the Seattle PowerAppers Meetup Group.
 - [Outline and Instructions](./outlines/shakeThingsUp.md)
 - [YouTube LiveStream Wed. April 10th, 6:30PM](https://youtu.be/ybK4tCwZAM4)
 - [Archived Video of end-to-end process](https://youtu.be/Th4tNQJWvUQ)
-- [Video 1: Build simple UI](./assets/videos/createNewApp.mp4)
-- [Video 2: Test API in Postman](./assets/videos/postmanAPITesting.mp4)
-- [Video 3: Build Custom Connector](./assets/videos/customConnectorCreation.mp4)
-- [Video 4: Connect to PowerApp](./assets/videos/addCustomConnectorToApp.mp4)
-- [Video 5: Visualize API Response](./assets/videos/visualizeAPIresponse.mp4)
-- [Video 6: Publish and Deploy to Mobile](./assets/videos/publishAndDeploy.mp4)
 
 ## [Meetup 6: Real World PowerApps: Session 3](https://www.meetup.com/Seattle-PowerAppers/events/259621354/)
 
