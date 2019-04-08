@@ -5,6 +5,7 @@ Resources for members (and non-members) of the Seattle PowerAppers Meetup Group.
 - Saturday April 20th 10:00AM - 1:00PM
 - [Southwest Library](https://www.spl.org/hours-and-locations/southwest-branch)
 - [Outline and Instructions](./outlines/shakeThingsUp.md)
+- [Earthquake App!](./apps/earthquakeApp_LIVESTREAM.msapp)
 - [YouTube LiveStream Wed. April 10th, 6:30PM](https://youtu.be/ybK4tCwZAM4)
 - [Archived Video of end-to-end process](https://youtu.be/Th4tNQJWvUQ)
 
