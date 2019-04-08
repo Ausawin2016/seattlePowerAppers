@@ -26,7 +26,13 @@
       - Rain
       - Clouds
   - Air Quality (Beta)
-    - CO, O3, SO2, NO2 
+    - CO, O3, SO2, NO2
+- [USGS Earthquake API](https://earthquake.usgs.gov/fdsnws/event/1/)
+    - Given `latitude` and `longitude`
+    - Returns objects such as:
+      - Earthquake type
+      - Magnitude
+      - Radius
 
 ## Time
 
