@@ -35,15 +35,10 @@ I hear ya! To keep things dynamic and expose our Meetup Group to some new PowerA
 ## Basic Instructions
 
 - Create simple PowerApp user interface
-    - [Video]()
 - Test USGS earthquake API in Postman
-    - [Video]()
 - Create Custom Connector in PowerApps
-    - [Video]()
 - Connect Custom Connector to app and Collect API response
-    - [Video]()
 - Visualize API response in a Gallery control with Labels
-    - [Video]()
 
 ## Challenge!!
 
