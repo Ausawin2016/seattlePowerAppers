@@ -16,7 +16,6 @@ I hear ya! To keep things dynamic and expose our Meetup Group to some new PowerA
 
 **Here we go...SHAAAAKKKIIINNGGG Things Up!!**
 
-![](../assets/screenshots/2019-04-07-19-35-55.png)
 ![](../assets/screenshots/2019-04-07-19-37-17.png)
 
 ## New Concepts We'll Learn
