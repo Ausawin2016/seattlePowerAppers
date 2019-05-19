@@ -1,6 +1,10 @@
 # Seattle PowerAppers
 Resources for members (and non-members) of the Seattle PowerAppers Meetup Group.
 
+## [Meetup 8: PowerApps Time Machine!!]()
+- Saturday May 25th 11:00AM - 2:00PM
+- [Delridge Library](https://www.spl.org/hours-and-locations/delridge-branch)
+
 ## [Meetup 7: Shaking Things Up!!](https://www.meetup.com/Seattle-PowerAppers/events/260438267/)
 - Saturday April 20th 10:00AM - 1:00PM
 - [Southwest Library](https://www.spl.org/hours-and-locations/southwest-branch)
