@@ -1,7 +1,7 @@
 # List of Fun API's to Use in PowerApps
 
 - **Created:** Sun 01/06/2019 06:39 PM PST
-- **Updated:** Sun 04/07/2019 10:00 AM PST
+- **Updated:** Fri 05/27/2019 19:01 PST
 
 ## Biological:
 
@@ -37,6 +37,7 @@
 ## Time
 
 - [Azure Maps: Timezone API](https://docs.microsoft.com/en-us/rest/api/maps/timezone/gettimezonebycoordinates)
+  - Paid service
   - Given `latitude` and `longitude`
   - Returns objects such as: 
      - UTC
@@ -44,6 +45,10 @@
      - Local Offset from UTC
      - Daylight Savings Time Offset, Timezone Name, etc.
   - Requires an Azure maps account
+
+- [World Clock API](http://worldclockapi.com/api/json/pst/now)
+  - Free service
+  - Example query: `http://worldclockapi.com/api/json/pst/now`
 
 ## Space
 
