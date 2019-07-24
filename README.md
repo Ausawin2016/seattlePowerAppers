@@ -10,8 +10,7 @@ Resources for members (and non-members) of the Seattle PowerAppers Meetup Group.
 - [Southwest Library](https://www.spl.org/hours-and-locations/southwest-branch)
 - [Outline and Instructions](./outlines/shakeThingsUp.md)
 - [Earthquake App!](./apps/earthquakeApp_LIVESTREAM.msapp)
-- [YouTube LiveStream Wed. April 10th, 6:30PM](https://youtu.be/ybK4tCwZAM4)
-- [Archived Video of end-to-end process](https://youtu.be/Th4tNQJWvUQ)
+- [YouTube LiveStream Wed. April 10th, 6:30PM](https://www.youtube.com/watch?v=Th4tNQJWvUQ)
 
 ## [Meetup 6: Real World PowerApps: Session 3](https://www.meetup.com/Seattle-PowerAppers/events/259621354/)
 
