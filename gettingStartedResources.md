@@ -1,7 +1,7 @@
 # PowerApps support and learning resources
 
 - Created: Thu Nov 1 07:09:49 PDT 2018
-- Updated: Thu May 16 22:49:00 PST 2019
+- Updated: Tue Jul 23 21:27:00 PST 2019
 
 ## PowerPlatform Documentation
 
@@ -9,6 +9,7 @@
 - [Newer Feature: Responsive Design](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/create-responsive-layout)
 - [Newer Feature: Canvas App Components](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/create-component)
 - [Develop Offline Applications](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/offline-apps)
+- [Newer Feature: AI Builder](https://docs.microsoft.com/en-us/ai-builder/overview)
 
 ## System Requirements
 
