@@ -1,12 +1,24 @@
 # Seattle PowerAppers
 Resources for members (and non-members) of the Seattle PowerAppers Meetup Group.
 
+## [Meetup 11: Use PowerApps and Flow to Automate Your Day](https://www.meetup.com/Seattle-PowerAppers/events/263286228/)
+- Saturday October 19th 2019 11:00AM - 2:00PM
+- [Delridge Library](https://www.spl.org/hours-and-locations/delridge-branch)
+
+## [Meetup 10: Integrate AI and SuperPower Your PowerApps!](https://www.meetup.com/Seattle-PowerAppers/events/263286105/)
+- Saturday September 21 2019 11:00AM - 2:00PM
+- [Delridge Library](https://www.spl.org/hours-and-locations/delridge-branch)
+
+## [Meetup 9: Build Responsive, Reusable PowerApps Components](https://www.meetup.com/Seattle-PowerAppers/events/263285700/)
+- Saturday August 3rd 2019 11:00AM - 2:00PM
+- [Delridge Library](https://www.spl.org/hours-and-locations/delridge-branch)
+
 ## [Meetup 8: PowerApps Time Machine!!](https://www.meetup.com/Seattle-PowerAppers/events/261340897/)
-- Saturday May 25th 11:00AM - 2:00PM
+- Saturday May 25th 2019 11:00AM - 2:00PM
 - [Delridge Library](https://www.spl.org/hours-and-locations/delridge-branch)
 
 ## [Meetup 7: Shaking Things Up!!](https://www.meetup.com/Seattle-PowerAppers/events/260438267/)
-- Saturday April 20th 10:00AM - 1:00PM
+- Saturday April 20th 2019 10:00AM - 1:00PM
 - [Southwest Library](https://www.spl.org/hours-and-locations/southwest-branch)
 - [Outline and Instructions](./outlines/shakeThingsUp.md)
 - [Earthquake App!](./apps/earthquakeApp_LIVESTREAM.msapp)
@@ -65,3 +77,11 @@ Resources for members (and non-members) of the Seattle PowerAppers Meetup Group.
 ### [PowerApps Licensing Resources](./powerappsLicensing.md)
 
 - Updated 1/17/2019
+
+### [Azure SQL Deployment Script](./createAzureSQLServerAndDB.sh)
+
+- Updated 7/23/2019
+
+### [Azure SQL Create Role and Contained Database User Statements](./addUsers.sql)
+
+- Updated 7/23/2019
