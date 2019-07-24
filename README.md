@@ -78,6 +78,8 @@ Resources for members (and non-members) of the Seattle PowerAppers Meetup Group.
 
 - Updated 1/17/2019
 
+### [Deploy Azure SQL Server, DB and Contained DB User (`bash script`)](./deployAzureSql.md)
+
 ### [Azure SQL Deployment Script](./createAzureSQLServerAndDB.sh)
 
 - Updated 7/23/2019
