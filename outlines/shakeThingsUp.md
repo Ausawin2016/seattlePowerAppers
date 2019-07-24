@@ -29,7 +29,7 @@ I hear ya! To keep things dynamic and expose our Meetup Group to some new PowerA
 
 - Download [Postman](https://www.getpostman.com/downloads/)
 - Download the [Earthquake App](../apps/earthquakeApp_LIVESTREAM.msapp) from our Github repo
-- Join the [YouTube LiveStream](https://youtu.be/ybK4tCwZAM4) on Wednesday, April 10th at 6:30PM
+- Join the [YouTube LiveStream](https://www.youtube.com/watch?v=Th4tNQJWvUQ) on Wednesday, April 10th at 6:30PM
 
 ## Basic Instructions
 
