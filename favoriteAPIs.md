@@ -1,7 +1,7 @@
 # List of Fun API's to Use in PowerApps
 
-**Created:** Sun 01/06/2019 06:39 PM PST
-**Updated:** Thu 01/17/2019 22:28 PM PST
+- **Created:** Sun 01/06/2019 06:39 PM PST
+- **Updated:** Fri 05/27/2019 19:01 PST
 
 ## Biological:
 
@@ -37,6 +37,7 @@
 ## Time
 
 - [Azure Maps: Timezone API](https://docs.microsoft.com/en-us/rest/api/maps/timezone/gettimezonebycoordinates)
+  - Paid service
   - Given `latitude` and `longitude`
   - Returns objects such as: 
      - UTC
@@ -44,6 +45,10 @@
      - Local Offset from UTC
      - Daylight Savings Time Offset, Timezone Name, etc.
   - Requires an Azure maps account
+
+- [World Clock API](http://worldclockapi.com/api/json/pst/now)
+  - Free service
+  - Example query: `http://worldclockapi.com/api/json/pst/now`
 
 ## Space
 
@@ -64,6 +69,10 @@
   - Returns objects such as: 
     - A `.png` image according to `width`, `height`, `center` parameters you specify.
     - Was offering a `path` on this said map tile, but [its been removed due to errors I brought up](https://github.com/MicrosoftDocs/azure-docs/issues/21449#issuecomment-451804267).
+- [Open Notify: Get Int. Space Station Location!](http://open-notify.org/)
+  - Given `latitude` and `longitude`
+  - Returns location of ISS OR
+  - Returns the next datetime the ISS will cross your lat/long!, Cool!
     
 ## Technical
 

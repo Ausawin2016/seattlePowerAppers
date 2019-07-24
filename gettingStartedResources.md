@@ -1,11 +1,15 @@
 # PowerApps support and learning resources
 
 - Created: Thu Nov 1 07:09:49 PDT 2018
-- Updated: Thur Feb 7 20:28:00 PST 2019
+- Updated: Tue Jul 23 21:27:00 PST 2019
 
 ## PowerPlatform Documentation
 
 - [Official (AWESOME!) Documentation](https://docs.microsoft.com/en-us/powerapps/powerapps-overview)
+- [Newer Feature: Responsive Design](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/create-responsive-layout)
+- [Newer Feature: Canvas App Components](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/create-component)
+- [Develop Offline Applications](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/offline-apps)
+- [Newer Feature: AI Builder](https://docs.microsoft.com/en-us/ai-builder/overview)
 
 ## System Requirements
 
@@ -21,6 +25,7 @@
 - [edX Course: Developing Business Applications with Microsoft PowerApps, CDS, and Flow](https://courses.edx.org/courses/course-v1:Microsoft+DAT227x+3T2018/course/)
 - [Microsoft Learn](https://docs.microsoft.com/en-us/learn/)
   - GREAT resources for PowerApps/PowerBI/Flow and all kinds of Azure stuff
+- [Microsoft PowerApps-specific Learning](https://docs.microsoft.com/en-us/learn/browse/?products=powerapps)
 
 ## Power Platform YouTube: "Folks to follow"
 
@@ -67,6 +72,7 @@
 - [April Dunham](https://www.youtube.com/channel/UCz_x76EBX5UXsV27drGNh6w)
     - Excellent PowerApps videos from basic to advanced.
 - [PowerApps.Rocks!](https://www.youtube.com/channel/UCfEU2rhKEMRaZ1mEdt3zwrg)
+- [Microsoft PowerPlatform](https://www.youtube.com/channel/UCgc3NEslE8oISOEawhcpMCA)
     
 ## PowerPlatform Twitter "Folks to Follow"
 
