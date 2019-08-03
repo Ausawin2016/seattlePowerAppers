@@ -85,8 +85,11 @@ Responsive design is now possible in PowerApps. By using references to device he
 4. Set `cmpRespScreen` properties
 
   a. `Width`: `Max(App.Width, If(App.Width < App.Height, App.DesignWidth, App.DesignHeight))`
+  
   b. Explanation: Set the **component width** to the larger of:
+  
   c. The device width OR,
+  
   d. When the device is in portrait orientation, the width in App Settings OR
   e. The height in App Settings
   f. Substitute "device" for "browser window" when the app is used on laptop
