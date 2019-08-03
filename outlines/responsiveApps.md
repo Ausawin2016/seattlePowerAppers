@@ -86,15 +86,15 @@ Responsive design is now possible in PowerApps. By using references to device he
   - `Width`: `Max(App.Width, If(App.Width < App.Height, App.DesignWidth, App.DesignHeight))`
   - Explanation: Set the **component width** to the larger of:
   - The device width OR,
-  d. When the device is in portrait orientation, the width in App Settings OR
-  e. The height in App Settings
-  f. Substitute "device" for "browser window" when the app is used on laptop
-  g. `Height`: `Max(App.Height, If(App.Width < App.Height, App.DesignHeight, App.DesignWidth))`
-  h. Explanation: Set the **component height** to the larger of:
-  i. The device height OR,
-  j. When the device is in portrait orientation, the width in App Settings OR
-  k. The width in App Settings
-  l. Substitute "device" for "browser window" when the app is used on laptop
+  - When the device is in portrait orientation, the width in App Settings OR
+  - The height in App Settings
+  - Substitute "device" for "browser window" when the app is used on laptop
+  - `Height`: `Max(App.Height, If(App.Width < App.Height, App.DesignHeight, App.DesignWidth))`
+  - Explanation: Set the **component height** to the larger of:
+  - The device height OR,
+  - When the device is in portrait orientation, the width in App Settings OR
+  - The width in App Settings
+  - Substitute "device" for "browser window" when the app is used on laptop
 
 #### Create some Custom Properties for `cmpRespScreen`
 
@@ -117,23 +117,23 @@ This is what we're building:
 3. Move it near the bottom of the component
   -  ![](../assets/screenshots/2019-08-02-08-45-47.png)
 4. Set `glrMenu` Properties:
-  a. `Y`: `.85 * cmpRespScreen.Height` (Start menu 85% of the way down the component)
-  b. `X`: `cmpRespScreen.X`
-  c. `Width`: `cmpRespScreen.Width`
-  d. `Height`: `.13 * cmpRespScreen.Height`
-  e. 13% of the component height
-  f. Derived by taking the height of the Gallery in *my instance of the app* (146) and dividing it by the component height (1136) = .128
-  g. `TemplateSize`: `.25 * (Parent.Width - 25)`
-  h. **NOTE:** The static values here go against the dynamic principals laid out above
-  i. See the code comments in this property of the sample app for "Levels of responsiveness"
-  j. `Transition`: `Transition.Pop`
-  k. `OnSelect`: `Set(varSelectedPage, ThisItem)`
-  l. `Default`: `{}`
+  - `Y`: `.85 * cmpRespScreen.Height` (Start menu 85% of the way down the component)
+  - `X`: `cmpRespScreen.X`
+  - `Width`: `cmpRespScreen.Width`
+  - `Height`: `.13 * cmpRespScreen.Height`
+  - 13% of the component height
+  -  Derived by taking the height of the Gallery in *my instance of the app* (146) and dividing it by the component height (1136) = .128
+  - `TemplateSize`: `.25 * (Parent.Width - 25)`
+  - **NOTE:** The static values here go against the dynamic principals laid out above
+  - See the code comments in this property of the sample app for "Levels of responsiveness"
+  - `Transition`: `Transition.Pop`
+  - `OnSelect`: `Set(varSelectedPage, ThisItem)`
+  - `Default`: `{}`
 5. Insert a Label control into the Gallery. This will be used to display screen names in the menu.
-    a. Alternatively, you could use an Image control to display icons in lieu of text.
-    b. Click the edit (pencil) icon in the Gallery
-    c. Click Insert, then Label
-    d. Rename the Label to `lblScreenName`
+  - Alternatively, you could use an Image control to display icons in lieu of text.
+  - Click the edit (pencil) icon in the Gallery
+  - Click Insert, then Label
+  - Rename the Label to `lblScreenName`
 6. Set `lblScreenName` Properties:
     a. `Y`: `0`
     b. `X`: `0`
