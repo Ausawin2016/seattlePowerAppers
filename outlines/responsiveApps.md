@@ -135,29 +135,29 @@ This is what we're building:
   - Click Insert, then Label
   - Rename the Label to `lblScreenName`
 6. Set `lblScreenName` Properties:
-    a. `Y`: `0`
-    b. `X`: `0`
-    c. `Width`: `Parent.TemplateWidth`
-    d. `Height`: `Parent.TemplateHeight`
-    e. `Fill`: `If(ThisItem.IsSelected, ColorValue("#27ad74"), ColorValue("#d3d3d3"))`
-    f. `FontWeight`: `If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Normal)`
-    g. `Color`: `If(ThisItem.IsSelected, ColorValue(cmpRespScreen.cmpPrimaryColor), ColorValue(cmpRespScreen.cmpSecondaryColor))`
-    h. `Align`: `Align.Center`
-    i. `Size`: `Parent.Height / 6`
-    j. **Note:** This is largely arbitrary. You can create a proportion based on your own liking.
+  - `Y`: `0`
+  - `X`: `0`
+  - `Width`: `Parent.TemplateWidth`
+  - `Height`: `Parent.TemplateHeight`
+  - `Fill`: `If(ThisItem.IsSelected, ColorValue("#27ad74"), ColorValue("#d3d3d3"))`
+  - `FontWeight`: `If(ThisItem.IsSelected, FontWeight.Bold, FontWeight.Normal)`
+  - `Color`: `If(ThisItem.IsSelected, ColorValue(cmpRespScreen.cmpPrimaryColor), ColorValue(cmpRespScreen.cmpSecondaryColor))`
+  - `Align`: `Align.Center`
+  - `Size`: `Parent.Height / 6`
+  - **Note:** This is largely arbitrary. You can create a proportion based on your own liking.
 7. Create a Custom Property for the Component
-    a. Select the component in Tree View
-    b. Click `New Custom Property` on the right
-    c. `Display Name`: `cmpMenuItems`
-    d. `Name`: `cmpMenuItems`
-    e. `Description`: `cmpMenuItems`
-    f. `Property Type`: `Input`
-    g. `Data Type`: `Table`
-    h. Click `Create`
-    i. Select the Property dropdown box for the Component then select `cmpMenuItems`
-    j. Set its value to `Table({screen: "SampleText"})`
-    k. This is just a placeholder table
-    l. When this component is brought into an app, we'll populate this with actual screen names
+  - Select the component in Tree View
+  - Click `New Custom Property` on the right
+  - `Display Name`: `cmpMenuItems`
+  - `Name`: `cmpMenuItems`
+  - `Description`: `cmpMenuItems`
+  - `Property Type`: `Input`
+  - `Data Type`: `Table`
+  - Click `Create`
+  - Select the Property dropdown box for the Component then select `cmpMenuItems`
+  - Set its value to `Table({screen: "SampleText"})`
+  - This is just a placeholder table
+  - When this component is brought into an app, we'll populate this with actual screen names
 8. Set the `glrMenu` Items property to `cmpRespScreen.cmpMenuItems`
 9. Set the `lblScreenName` Text property to `ThisItem.screen`
 10. Click `CTRL + s` to save app
@@ -204,20 +204,20 @@ ClearCollect(
 10. Place the Image control in the top left corner of the app screen, resize as necessary
 11. Rename it to `imgLogo`
 12. Set `imgLogo` properties
-    a. `Image`: `cmpRespScreen.cmpLogo`
-    b. `X`: 0
-    c. `Y`: 0
-    d. `Width`: `.34 * Parent.Width`
-        i. Derived from dividing the width of the logo in my instance of the app (218) by the width of the component (640) and rounding
-    e. `Height`: `.10 * Parent.Height`
-        i. Derived from dividing the height of the logo in my instance of the app (123) by the height of the component (1136) and rounding
+  - `Image`: `cmpRespScreen.cmpLogo`
+  - `X`: 0
+  - `Y`: 0
+  - `Width`: `.34 * Parent.Width`
+      i. Derived from dividing the width of the logo in my instance of the app (218) by the width of the component (640) and rounding
+  - `Height`: `.10 * Parent.Height`
+      i. Derived from dividing the height of the logo in my instance of the app (123) by the height of the component (1136) and rounding
 13. Instantiate your logo image
-    a. Click `Screens` in Tree View
-    b. Click `App`
-    c. To the `OnStart` property, add:
-    d. `Set(varLogo, "https://raw.githubusercontent.com/SeaDude/seattlePowerAppers/master/assets/spa2.png")`
-    1. Set `cmpRespScreen` `cmpLogo` property to `varLogo`
-    1. Click the three dots next to `App`, then `Run OnStart` and revel in what you've accomplished!
+  - Click `Screens` in Tree View
+  - Click `App`
+  - To the `OnStart` property, add:
+  - `Set(varLogo, "https://raw.githubusercontent.com/SeaDude/seattlePowerAppers/master/assets/spa2.png")`
+  - Set `cmpRespScreen` `cmpLogo` property to `varLogo`
+  - Click the three dots next to `App`, then `Run OnStart` and revel in what you've accomplished!
 
 #### Create a responsive app header within `cmpRespScreen`
 
@@ -233,28 +233,28 @@ ClearCollect(
 10. Position it under the logo and across the screen where you'd like to see your app heading
 11. Rename it to `lblHeader`
 12. Set `lblHeader` properties
-    a. `Text`:`cmpRespScreen.cmpHeader`
-    b. `X`: 0
-    c. `Y`: `.17 * Parent.Height`
-        i. Derived from dividing the y of the header in my instance of the app (198) by the height of the component (1136) and rounding
-    d. `Width`: `Parent.Width`
-    e. `Height`: `.09 * Parent.Height`
-        1. Derived from dividing the height of the header in my instance of the app (104) by the height of the component (1136) and rounding
-    f. `Align`: `Align.Center`
-    g. `Size`: `lblHeader.Height / 3`
-        1. **NOTE:** This is an arbitrary proportion of 30% the height of the header label itself. Experiment with your own method for determining a scalable font size
-    h. `FontWeight`: `FontWeight.Bold`
-    i. `Fill`: `ColorValue(cmpRespScreen.cmpPrimaryColor)`
-    j. `Color`: `White`
+  - `Text`:`cmpRespScreen.cmpHeader`
+  - `X`: 0
+  - `Y`: `.17 * Parent.Height`
+      i. Derived from dividing the y of the header in my instance of the app (198) by the height of the component (1136) and rounding
+  - `Width`: `Parent.Width`
+  - `Height`: `.09 * Parent.Height`
+      1. Derived from dividing the height of the header in my instance of the app (104) by the height of the component (1136) and rounding
+  - `Align`: `Align.Center`
+  - `Size`: `lblHeader.Height / 3`
+      1. **NOTE:** This is an arbitrary proportion of 30% the height of the header label itself. Experiment with your own method for determining a scalable font size
+  - `FontWeight`: `FontWeight.Bold`
+  - `Fill`: `ColorValue(cmpRespScreen.cmpPrimaryColor)`
+  - `Color`: `White`
 13. Instantiate your header text
-    a. Click `Screens` in Tree View
-    b. Click `App`
-    c. To the `OnStart` property, add:
-    d. `Set(varHeader, "Seattle PowerAppers!")`
-    e. Set `cmpRespScreen` `cmpHeader` property to `varHeader`
-    f. Click `CTRL + save` to save app
-    g. Click the three dots next to `App`, then `Run OnStart`
-    h. Revel in what you've accomplished!
+  - Click `Screens` in Tree View
+  - Click `App`
+  - To the `OnStart` property, add:
+  - `Set(varHeader, "Seattle PowerAppers!")`
+  - Set `cmpRespScreen` `cmpHeader` property to `varHeader`
+  - Click `CTRL + save` to save app
+  - Click the three dots next to `App`, then `Run OnStart`
+  - Revel in what you've accomplished!
 
 #### Create a responsive subheader within `cmpRespScreen`
 
@@ -263,16 +263,16 @@ ClearCollect(
 3. Position it under `cmpHeader` and across the screen where you'd like to see a subheading
 4. Rename it to `lblSubheader`
 5. Set `lblSubheader` properties
-    a. `Text`:`glrMenu.Selected.screen`
-    b. `X`: 0
-    c. `Y`: `lblHeader.Y + lblHeader.Height`
-        i. Note how we're using "relative positioning" here. No need to specify formulas or values, just place the subheader relative to the header.
-    d. `Width`: `Parent.Width`
-    e. `Height`: `lblHeader.Height / 3`
-        1. Also using relative positioning and an arbitrary proportion
-    f. `Align`: `Align.Right`
-    g. `Size`: `.65 * lblSubheader.Height`
-        1. **NOTE:** This is an arbitrary proportion of 65% the height of the subheader label itself. Experiment with your own method for determining a scalable font size
+  - `Text`:`glrMenu.Selected.screen`
+  - `X`: 0
+  - `Y`: `lblHeader.Y + lblHeader.Height`
+      i. Note how we're using "relative positioning" here. No need to specify formulas or values, just place the subheader relative to the header.
+  - `Width`: `Parent.Width`
+  - `Height`: `lblHeader.Height / 3`
+      1. Also using relative positioning and an arbitrary proportion
+  - `Align`: `Align.Right`
+  - `Size`: `.65 * lblSubheader.Height`
+  - **NOTE:** This is an arbitrary proportion of 65% the height of the subheader label itself. Experiment with your own method for determining a scalable font size
 
 #### Create a custom *output* property for the `cmpRespScreen` menu
 
