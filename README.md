@@ -11,7 +11,9 @@ Resources for members (and non-members) of the Seattle PowerAppers Meetup Group.
 
 ## [Meetup 9: Build Responsive, Reusable PowerApps Components](https://www.meetup.com/Seattle-PowerAppers/events/263285700/)
 - Saturday August 3rd 2019 11:00AM - 2:00PM
-- [Delridge Library](https://www.spl.org/hours-and-locations/delridge-branch)
+- [Broadview Library](https://www.spl.org/hours-and-locations/broadview-branch)
+- [Outline and Instructions](./outlines/responsiveApps.md)
+- [Sample App](./apps/ResponsiveReusableComponents.msapp)
 
 ## [Meetup 8: PowerApps Time Machine!!](https://www.meetup.com/Seattle-PowerAppers/events/261340897/)
 - Saturday May 25th 2019 11:00AM - 2:00PM
