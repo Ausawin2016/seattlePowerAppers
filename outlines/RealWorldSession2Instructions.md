@@ -220,7 +220,7 @@ For the following instructions, remember the screen size for our app is 1366 x 7
     - **Properties:**
         - OnSelect: `Navigate(menu_screen, Cover)`
 
-4. Test progress so far. 
+4. Test progress so far.
 
 - Click the preview button ("Play" button in top right corner of editor)
 - **Action:**
