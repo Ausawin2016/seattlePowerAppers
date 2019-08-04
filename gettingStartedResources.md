@@ -111,6 +111,8 @@ These are some great blogs to follow to get the latest, greatest PowerPlatform i
     - Awesome, awesome work!
 - [37jotter.tech's Blog](https://37jotter.tech/)
     - Very innovative use of the PowerPlatform
+- [Office PowerUser](https://officepoweruser.com/category/powerapps/)
+    - Detailed yet approachable tutorials.
 
 ## Live Events
 
