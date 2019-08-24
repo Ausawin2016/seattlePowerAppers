@@ -70,7 +70,7 @@ Resources for members (and non-members) of the Seattle PowerAppers Meetup Group.
 
 ### [Curated PowerApps Learning and Support Resources](./gettingStartedResources.md)
 
-- Updated 2/3/2019
+- Updated 8/23/2019
 
 ### [Favorite PowerApps API's](./favoriteAPIs.md)
 
