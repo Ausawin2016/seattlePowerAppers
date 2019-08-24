@@ -107,13 +107,15 @@ These are some great blogs to follow to get the latest, greatest PowerPlatform i
 - [PowerApps Community Blog](https://powerusers.microsoft.com/t5/PowerApps-Community-Blog/bg-p/PowerAppsBlog)
 - [Official PowerApps Blog](https://powerapps.microsoft.com/en-us/blog/)
 - [Meneghino's Personal Blog](https://baizini-it.com/blog/)
-    - One of the best!
+  - One of the best!
 - [Carlos Figueira's Personal Blog](https://www.carlosag.net/)
-    - Awesome, awesome work!
+  - Awesome, awesome work!
 - [37jotter.tech's Blog](https://37jotter.tech/)
-    - Very innovative use of the PowerPlatform
+  - Very innovative use of the PowerPlatform
 - [Office PowerUser](https://officepoweruser.com/category/powerapps/)
-    - Detailed yet approachable tutorials.
+  - Detailed yet approachable tutorials.
+- [Jussi Rione Blog](https://jussiroine.com/)
+  - Excellent resources
 
 ## Live Events
 
