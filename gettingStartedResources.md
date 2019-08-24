@@ -1,7 +1,7 @@
 # PowerApps support and learning resources
 
 - Created: Thu Nov 1 07:09:49 PDT 2018
-- Updated: Tue Jul 23 21:27:00 PST 2019
+- Updated: Fri Aug 23 19:06:00 PST 2019
 
 ## PowerPlatform Documentation
 
@@ -73,6 +73,7 @@
     - Excellent PowerApps videos from basic to advanced.
 - [PowerApps.Rocks!](https://www.youtube.com/channel/UCfEU2rhKEMRaZ1mEdt3zwrg)
 - [Microsoft PowerPlatform](https://www.youtube.com/channel/UCgc3NEslE8oISOEawhcpMCA)
+- [Dawid van Heerden](https://www.youtube.com/channel/UCIMe_ErQZP5chbI9UyW0xLw)
     
 ## PowerPlatform Twitter "Folks to Follow"
 
