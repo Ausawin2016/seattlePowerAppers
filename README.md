@@ -8,6 +8,8 @@ Resources for members (and non-members) of the Seattle PowerAppers Meetup Group.
 ## [Meetup 10: Integrate AI and SuperPower Your PowerApps!](https://www.meetup.com/Seattle-PowerAppers/events/263286105/)
 - Saturday September 21 2019 11:00AM - 2:00PM
 - [Delridge Library](https://www.spl.org/hours-and-locations/delridge-branch)
+- [Outline and Instructions]()
+- [Sample App](https://github.com/SeaDude/seattlePowerAppers/raw/master/apps/MEETUP_AI_BUILDER_20190921153813.zip)
 
 ## [Meetup 9: Build Responsive, Reusable PowerApps Components](https://www.meetup.com/Seattle-PowerAppers/events/263285700/)
 - Saturday August 3rd 2019 11:00AM - 2:00PM
