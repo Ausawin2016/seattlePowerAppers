@@ -1,4 +1,5 @@
 ---
+Title: Build Reusable, Responsive PowerApps Components
 Author: Eric Thomas
 Organization: PowerApps.Rocks!
 Created Time and Date: Sat May 18 06:55:32 PDT 2019
@@ -32,14 +33,30 @@ Responsive design is now possible in PowerApps. By using references to device he
 - Once dynamic formulas are created for a controls `X`, `Y`, `Height` and `Width` properties, DO NOT DRAG IT AROUND THE SCREEN.
   - If you do, dynamic formulas will be overwritten with static values
 
+#### App-related Properties
+
+- `SizeBreakpoints`
+  - Sets the `ScreenSize` properties.
+  - If starting with a Tablet app, default breakpoints are `[600, 900, 1200]` (Small, Medium, Large).
+  - If starting with a Phone app, default breakpoints are `[1200, 1800, 2400]` (Small, Medium, Large).
+  - Addition breakpoints can be added. One additional would be called "ExtraLarge". Beyond ExtraLarge, screen sizes would be referenced as "5", "6", etc.
+
 #### Screen-related Properties
 
 - `Design.Height` & `Design.Width`
-  - Derived from the dimensions specified in `Screen size + orientation` of `File / App Settings`
+  - Derived from the dimensions specified in `Screen size + orientation` of `App Settings`
 
 - `App.Height` & `App.Width`
-  - Correspond to the dimensions of the device or browser window.
+  - Correspond to the dimensions of the device screen or browser window.
   - If the user resizes the browser window (or rotates the device if you've turned off Lock orientation), the values of these properties change dynamically.
+
+- `Layout.Vertical,Horizontal`
+  - Represents the orientation of the device or browser window in which the app is running.
+
+- `ScreenSize.Small,Medium,Large,ExtraLarge`
+  - Represents the approximate size of the device screen or browser window.
+  - Each screen size corresponds to a `SizeBreakpoint`
+  - Each breakpoint roughly corresponds to a phone, a tablet in portrait orientation, a tablet in landscape orientation, and a desktop computer monitor.
 
 #### Control-related Properties
 
@@ -48,8 +65,8 @@ Responsive design is now possible in PowerApps. By using references to device he
 
 #### Special Properties
 
-- `Parent.Height` & `Parent.Width`
-  - References a **container's** height and width.
+- `Parent.Height,Width,Size,Orientation`
+  - References a **container's** property
   - Containers can be:
     - Screen controls
     - Gallery controls
