@@ -4,6 +4,8 @@ Resources for members (and non-members) of the Seattle PowerAppers Meetup Group.
 ## [Meetup 11: Use PowerApps and Flow to Automate Your Day](https://www.meetup.com/Seattle-PowerAppers/events/263286228/)
 - Saturday October 19th 2019 11:00AM - 2:00PM
 - [Delridge Library](https://www.spl.org/hours-and-locations/delridge-branch)
+- [Instructions](./outlines/flowAutomation.md)
+- [Sample Flow](./apps/automateYourDay.zip)
 
 ## [Meetup 10: Integrate AI and SuperPower Your PowerApps!](https://www.meetup.com/Seattle-PowerAppers/events/263286105/)
 - Saturday September 21 2019 11:00AM - 2:00PM
