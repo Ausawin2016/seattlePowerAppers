@@ -310,5 +310,5 @@ if(equals(triggerBody()['text_5'], 'Boolean'),8,0))))))
 ### Extra credit
 
 1. Download the Flow app for iPhone/Android
-2. Sign in using credentials for the tenent
+2. Sign in using credentials for the tenant
 3. Run this Flow from your phone, BAM!
