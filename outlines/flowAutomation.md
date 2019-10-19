@@ -3,7 +3,7 @@ Title: Automate Your Day With PowerApps and Flow
 Author: Eric Thomas
 Organization: PowerApps.Rocks!
 Created Time and Date: Sat Oct 5 10:13:23 PDT 2019
-Last Updated: 
+Last Updated: Sat Oct 19 09:52:39 PDT 2019
 Categories: PowerApps Development
 Tags: meetup, powerapps, flow, automation
 ---
@@ -19,6 +19,8 @@ Tags: meetup, powerapps, flow, automation
     - ![Venmo QR](./2019-09-20-21-49-22.png)
   - [Patreon](https://patreon.com/powerappsrocks)
     - ![Patreon QR](./2019-09-20-21-50-39.png)
+- **To contact me directly:**
+  - [Email me](mailto:info@powerapps.rocks)
 
 ### Introduction
 
@@ -92,7 +94,7 @@ If you do not have access to one of the licenses above, your instructor will pro
 1. Using a web browser, visit [flow.microsoft.com](https://flow.microsoft.com)
 2. Click `Create` then `Instant flow`
     - ![Click Instant Flow](./2019-10-06-11-14-10.png)
-3. Name the Flow `CREATE_SP_LIST`
+3. Name the Flow `CREATE_SP_LIST_DEV`
 4. Click `Skip`
 5. Type `button` into the Trigger search bar
     - Click `Manually trigger a flow` in the Triggers and Actions area
@@ -104,43 +106,43 @@ If you do not have access to one of the licenses above, your instructor will pro
 9. Click the `Initialize variable` step
     - ![Click Initialize](./2019-10-06-11-18-07.png)
 10. Click the three dots on this action then `Rename`
-    - Change name to `Initialize varTableName`
+    - Change name to `INIT varTableName`
     - Just like you name every control in a PowerApp, name every action in Flow
 11. Set the following values for this action
     - Name: `varTableName`
     - Type: `String`
-    - Value: `Table Name` (from the `Manually trigger a Flow` Dynamic Content area)
+    - Value: Select the `Table Name` Dynamic Content
     - ![Dynamic](./2019-10-06-11-20-56.png)
-12. Click `Save` then `Text` then `I'll perform trigger action`
-13. Enter the name of your Sharepoint list and click `Run Flow`
+12. Click `Save` then `Test` then `I'll perform trigger action`
+13. Enter the Table Name (this will be the Sharepoint list name in the future) and click `Run Flow`
     - The Flow will run in real-time
     - Once complete, look for green checks on each successful Action
     - Unsuccessful Actions will show a red "X"
-    - Expand the Trigger and Action boxes to see their respective input/output
+    - Click the Trigger and Action boxes to expand and view input/output
     - Post-run/test input/output is VERY valuable
 14. Click `Edit`
-15. Repeat the steps above to add a `Table Description` step to the Trigger and a corresponding variable called `varTableDesc`
+15. Repeat the steps above to add a `Table Description` step to the Trigger and a corresponding variable called `INIT varTableDesc`
     - Should end up with this
     - ![So far](./2019-10-06-11-51-38.png)
 16. Click `New Step`
 17. Type `Send an HTTP` into the Action search bar
 18. Select `Send and HTTP request to Sharepoint`
 19. Click the three dots on this action then `Rename`
-    - Change name to `Create new Sharepoint list`
+    - Change name to `HTTP POST new list`
 20. Set the following values for this action:
     - Site Address: Select the site where the list will be created
     - Method: `POST`
     - Uri: `_api/web/lists/`
     - Headers: `content-type` then `application/json;odata=verbose`
-    - Body:
+    - Body: Paste in the JSON below
 
 ``` JSON
 {
-    '__metadata': { 'type': 'SP.List' }, 
+    '__metadata': { 'type': 'SP.List' },
     'AllowContentTypes': true,
     'BaseTemplate': 100,
-    'ContentTypesEnabled': true, 
-    'Description': 'My first test list', 
+    'ContentTypesEnabled': true,
+    'Description': 'My first test list',
     'Title': 'The coolest list ever'
 }
 ```
@@ -153,8 +155,8 @@ If you do not have access to one of the licenses above, your instructor will pro
 24. Click `Test Flow` and follow prompts
 25. After the Flow runs successfully, refresh `Site Contents` and verify list was created
     - ![Refresh](./2019-10-06-12-03-39.png)
-26. Expand the Actions in Flow to view inputs/outputs
-    - **IMPORTANT**: This is a powerful method for learning HOW things work in Flow
+26. Back in Flow, expand the Actions to view inputs/outputs
+    - **REMEMBER**: This is a powerful method for learning HOW things work in Flow
     - There are many times you will visit a failed/successful run to copy JSON schemas, adjust Expressions, etc.
     - Take time studying Flow runs!
 27. ![Study Flow Runs](./2019-10-06-12-05-01.png)
@@ -196,13 +198,13 @@ If you do not have access to one of the licenses above, your instructor will pro
         - `Boolean`
     - ![So far](./2019-10-15-19-49-37.png)
 4. After the `Initialize varTableDesc` Action, click `+` and _add an Initialize Variable_ Action
-    - Rename to `varURI`
+    - Rename to `INIT varURI`
     - Type: `String`
     - Value: `_api/web/lists/GetByTitle('')`
     - Place `varTableName` Dynamic Content between the single quotes near `GetByTitle`
     - ![Dynamic Content](./2019-10-15-21-31-17.png)
 5. After the `Initialize varURI` Action, click `+` and _add a Compose_ Action
-    - Rename to `Create column array`
+    - Rename to `DATA column array`
     - Inputs:
 
 ``` JSON
@@ -246,27 +248,28 @@ if(equals(triggerBody()['text_5'], 'Boolean'),8,0))))))
 10. ![Expression](./2019-10-15-20-02-22.png)
 11. At the bottom of the Flow, click `New step` then type `Apply to each` in the Action search bar
 12. Select the `Apply to each` Action
-13. Click into the `Select an output...` field and select the output from `Create column array` Dynamic Content
+13. Click into the `Select an output...` field and select the output from `DATA column array` Dynamic Content
 14. ![Dynamic Content](./2019-10-15-20-18-06.png)
 15. *Within the `Apply to each`*, click `Add an action`
 16. Type `Send an HTTP request to Sharepoint` and select that Action
     - Site Address: Same address used in previous `Send HTTP request to Sharepoint` Action
     - Method: `POST`
-    - Uri: `varURI`
-    - Headers: **CRITICAL**: Mind the double quotes below!
-        - content-type: "application/json;odata=verbose"
-        - accept: "application/json;odata=verbose"
-    - Body:
+    - Uri: `varURI`**/Fields**
+    - Headers: `content-type` then `application/json;odata=verbose`
+    - Body: Copy and paste the JSON below
 
 ``` JSON
 {
-    'Title': '',
+		'__metadata': { 'type': 'SP.Field' },
+		'Title': '',
     'FieldTypeKind':
 }
 ```
 
-17. Within the `'Title'` area above, select the `fieldName` Dynamic Content under the `Apply to each` section
-18. Within the `'FieldTypeKind'` area above, select the `fieldType` Dynamic Content under the `Apply to each` section
+17. Between the quotes in the `'Title'` area above, type the following Expression:
+    - `items(`Apply_to_each`)?['fieldName']`
+18. In the `'FieldTypeKind'` area above, type the following Expression:
+    - `items(`Apply_to_each`)?['fieldType']`
 19. Click `Save` then `Test` but this time click `Use data from previous runs` and select the top option
     - ![Save and Test](./2019-10-06-12-20-37.png)
     - Click `Save and test`
@@ -282,24 +285,25 @@ if(equals(triggerBody()['text_5'], 'Boolean'),8,0))))))
 1. CTRL+A, CTRL+C **every** Expression you create before clicking `Ok` or `Update`
     - Sometimes Flow does not update an Expression
     - If it does not update, you lose the expression
-2. If Flow tells you the Expression is invalid, click `Ok` or `Update` one more time to be sure.
+2. If Flow tells you the Expression is invalid, click `Ok` or `Update` *one more time* to be sure.
     - The Flow parser can be slow and many times a second click will get the Expression accepted
-3. Inside Expressions, all Flow Action names appear in single quotes and all spaces are replaced with underscores
+3. Inside Expressions, all Flow Action names appear in single quotes **and** all spaces are replaced with underscores
     - **Example**:
         - Flow Action name: `Get Sharepoint items`
-        - Action name in Expression: `outputs('Get_Sharepoint_items')`
+        - Action name within an Expression: `outputs('Get_Sharepoint_items')`
 4. Use Terminate Actions as breakpoints when developing Flows
-5. Use Compose Actions to see outputs of preceding Actions and build Expressions
+    - **Superuser Tip**: Add a Terminate Action then copy it to your clipboard for quick inserts throughout your session!
+5. Use Compose Actions to see outputs of Actions and for examples to build Expressions
 6. Add Dynamic Content and hover over it to see underlying Expressions
 7. Use only single quotes in Expressions
-8. Nested **Objects** are selected using a question mark, square brackets and single quotes
+8. Nested JSON **Objects** are selected using a question mark, square brackets and single quotes
     - **Example**:
         - `outputs('heres_a_test')?['parent_name']?['child_name']`
-9. **Arrays** are selected with an integer `[0]` after the array name.
-    - This integer is very often, though not always, zero.
-    - Once the Array has been selected, select nested Objects using the method in previous step
+9. JSON **Arrays** are selected with an integer `[0]` after the array name.
+    - This integer is very often, though not always, zero (notated as `[0]`)
+    - Once an Array has been selected, select nested Objects using the method in previous step
     - **Example**:
-        - `outputs('heres_a_test')?['array_name']?[0]?['object_name']`
+        - `outputs('flow_action_name')?['JSON_array_name']?[0]?['JSON_object_name']`
     - The error message for getting this one wrong is cryptic~!
 10. If you add an Action that requires a different/new Connection, always click `I'll perform trigger` rather than `Use data from previous runs`.
     - This is because you must authenticate the new Connection before running.
@@ -312,3 +316,9 @@ if(equals(triggerBody()['text_5'], 'Boolean'),8,0))))))
 1. Download the Flow app for iPhone/Android
 2. Sign in using credentials for the tenant
 3. Run this Flow from your phone, BAM!
+
+![](./2019-10-15-22-17-25.png)
+
+4. Then add a `Send an Email` Action to email yourself (or your boss) and give kudos!
+
+You're getting good at Flow!
