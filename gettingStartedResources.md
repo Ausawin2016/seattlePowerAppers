@@ -1,7 +1,9 @@
 # PowerApps support and learning resources
 
 - Created: Thu Nov 1 07:09:49 PDT 2018
-- Updated: Fri Aug 23 19:06:00 PST 2019
+- Updated: Fri Nov 08 08:11:00 PST 2019
+
+A curated list of the best resources to bookmark, follow and get up-to-speed with
 
 ## PowerPlatform Documentation
 
@@ -74,6 +76,8 @@
 - [PowerApps.Rocks!](https://www.youtube.com/channel/UCfEU2rhKEMRaZ1mEdt3zwrg)
 - [Microsoft PowerPlatform](https://www.youtube.com/channel/UCgc3NEslE8oISOEawhcpMCA)
 - [Dawid van Heerden](https://www.youtube.com/channel/UCIMe_ErQZP5chbI9UyW0xLw)
+- [Reza Dorrani](https://www.youtube.com/channel/UCvBYTqRx-n_8KzFO0MJlUVw)
+  - Intensely astute PowerApper and Flow creator
     
 ## PowerPlatform Twitter "Folks to Follow"
 
@@ -96,8 +100,9 @@ You absolutely MUST join these communities if you are going to get into the Powe
     - "General Discussion" forum is incredibly active.
 - [PowerBI Community](https://community.powerbi.com/)
     - The oldest(?) of the PowerPlatform communities. Has over 244k posts in the "Desktop" forum!
-- [Flow Community](https://powerusers.microsoft.com/t5/Microsoft-Flow-Community/ct-p/FlowCommunity)
-    - Great community to report bugs, ask questions and get Flow answers!
+- [Power Automate Community](https://powerusers.microsoft.com/t5/Microsoft-Flow-Community/ct-p/FlowCommunity)
+    - Great community to report bugs, ask questions and get Power Automate answers!
+- [Power Virtual Agents Community](https://powerusers.microsoft.com/t5/Power-Virtual-Agents-Forum/bd-p/10292019)
 - [Stack Exchange PowerApps Newest Questions](https://stackoverflow.com/search?tab=newest&q=powerapps)
     - Getting MANY more questions here. Lots of expertise.
 
@@ -116,11 +121,13 @@ These are some great blogs to follow to get the latest, greatest PowerPlatform i
   - Detailed yet approachable tutorials.
 - [Jussi Rione Blog](https://jussiroine.com/)
   - Excellent resources
+- [Dreaming in CRM](https://dreamingincrm.com/)
+  - Technical deep dives and solutions for many Dynamics and PowerApps/Flow topics
 
 ## Live Events
 
-- [Meetups](https://meetup.com)
-    - Search for Meetups in your area with keywords like "PowerPlatform", "PowerApps", "Power BI", etc.
+- [Seattle PowerAppers Meetup Group](https://www.meetup.com/Seattle-PowerAppers)
+    - If not in Seattle, search for Meetups in your area with keywords like "PowerPlatform", "PowerApps", "Power BI", etc.
 - [Microsoft Business Application Summit (MBAS)](https://www.microsoft.com/en-us/BusinessApplicationsSummit)
     - AWESOME annual event that showcases the entire PowerPlatform!
 - [Microsoft Ignite](https://www.microsoft.com/en-us/ignite)
@@ -146,3 +153,9 @@ These are some great blogs to follow to get the latest, greatest PowerPlatform i
   - Get color inspiration for your application. Copy the hex values into your Fill/BorderColor/etc. Properties.
 - [UX Onboarding Screenshots](https://www.uxscreenshots.com/transit)
   - Get ideas for your apps!
+  
+ ## Sample PowerApps & Other Free Resources
+ 
+ - [PCF Gallery](https://pcf.gallery/)
+   - Free PowerApps Component Framework solutions. Wow!
+ - [PowerApps Community Custom Component Library](https://powerusers.microsoft.com/t5/Power-Apps-Component-Framework/Community-content-sample-components-blogs-etc-Link-to-this-page/m-p/280710#M100)
