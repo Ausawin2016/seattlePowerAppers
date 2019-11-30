@@ -1,0 +1,235 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "SeattleCulturalSpaces",
+    "description": "",
+    "version": "1.0"
+  },
+  "host": "data.seattle.gov",
+  "basePath": "/",
+  "schemes": [
+    "https"
+  ],
+  "consumes": [],
+  "produces": [],
+  "paths": {
+    "/resource/vsxr-aydq.json": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "description": "name"
+                  },
+                  "phone": {
+                    "type": "string",
+                    "description": "phone"
+                  },
+                  "url": {
+                    "type": "string",
+                    "description": "url"
+                  },
+                  "neighborhood": {
+                    "type": "string",
+                    "description": "neighborhood"
+                  },
+                  "nonprofit": {
+                    "type": "string",
+                    "description": "nonprofit"
+                  },
+                  "dominant_discipline": {
+                    "type": "string",
+                    "description": "dominant_discipline"
+                  },
+                  "year_of_occupation": {
+                    "type": "string",
+                    "description": "year_of_occupation"
+                  },
+                  "own_or_rent": {
+                    "type": "string",
+                    "description": "own_or_rent"
+                  },
+                  "year_bldg_built": {
+                    "type": "string",
+                    "description": "year_bldg_built"
+                  },
+                  "site_control_through_date": {
+                    "type": "string",
+                    "description": "site_control_through_date"
+                  },
+                  "year_founded": {
+                    "type": "string",
+                    "description": "year_founded"
+                  },
+                  "previous_facilities": {
+                    "type": "string",
+                    "description": "previous_facilities"
+                  },
+                  "how_many_theaters": {
+                    "type": "string",
+                    "description": "how_many_theaters"
+                  },
+                  "seats_total": {
+                    "type": "string",
+                    "description": "seats_total"
+                  },
+                  "visual_art_galleries": {
+                    "type": "string",
+                    "description": "visual_art_galleries"
+                  },
+                  "square_feet": {
+                    "type": "string",
+                    "description": "square_feet"
+                  },
+                  "ada_compliant": {
+                    "type": "string",
+                    "description": "ada_compliant"
+                  },
+                  "parking_spaces": {
+                    "type": "string",
+                    "description": "parking_spaces"
+                  },
+                  "street_frontage": {
+                    "type": "string",
+                    "description": "street_frontage"
+                  },
+                  "rental_space_avail": {
+                    "type": "string",
+                    "description": "rental_space_avail"
+                  },
+                  "serve_alcohol": {
+                    "type": "string",
+                    "description": "serve_alcohol"
+                  },
+                  "funded_by_a_c": {
+                    "type": "string",
+                    "description": "funded_by_a_c"
+                  },
+                  "stability_index_5_very_stable_1_very_uncertain": {
+                    "type": "string",
+                    "description": "stability_index_5_very_stable_1_very_uncertain"
+                  },
+                  "closed": {
+                    "type": "string",
+                    "description": "closed"
+                  },
+                  "address": {
+                    "type": "string",
+                    "description": "address"
+                  },
+                  "location": {
+                    "type": "object",
+                    "properties": {
+                      "latitude": {
+                        "type": "string",
+                        "description": "latitude"
+                      },
+                      "longitude": {
+                        "type": "string",
+                        "description": "longitude"
+                      }
+                    },
+                    "description": "location"
+                  },
+                  "latitude": {
+                    "type": "string",
+                    "description": "latitude"
+                  },
+                  "longitude": {
+                    "type": "string",
+                    "description": "longitude"
+                  },
+                  "square_feet_total": {
+                    "type": "string",
+                    "description": "square_feet_total"
+                  },
+                  "mission_2": {
+                    "type": "string",
+                    "description": "mission_2"
+                  },
+                  "funded_by_4culture": {
+                    "type": "string",
+                    "description": "funded_by_4culture"
+                  },
+                  "control_index_5_very_in_control_1_very_out_of_control": {
+                    "type": "string",
+                    "description": "control_index_5_very_in_control_1_very_out_of_control"
+                  },
+                  "constituency_over_50_one_race": {
+                    "type": "string",
+                    "description": "constituency_over_50_one_race"
+                  },
+                  "specific_demographics_and_community": {
+                    "type": "string",
+                    "description": "specific_demographics_and_community"
+                  },
+                  "organization_leadership": {
+                    "type": "string",
+                    "description": "organization_leadership"
+                  },
+                  "organization_artists": {
+                    "type": "string",
+                    "description": "organization_artists"
+                  },
+                  "closed_date": {
+                    "type": "string",
+                    "description": "closed_date"
+                  }
+                }
+              }
+            },
+            "headers": {
+              "Server": {
+                "description": "Server",
+                "type": "string"
+              },
+              "Date": {
+                "description": "Date",
+                "type": "string"
+              },
+              "Content-Type": {
+                "description": "Content-Type",
+                "type": "string"
+              },
+              "Transfer-Encoding": {
+                "description": "Transfer-Encoding",
+                "type": "string"
+              },
+              "Connection": {
+                "description": "Connection",
+                "type": "string"
+              },
+              "Content-Encoding": {
+                "description": "Content-Encoding",
+                "type": "string"
+              }
+            }
+          }
+        },
+        "summary": "GETNearbyCulture",
+        "description": "GETNearbyCulture",
+        "operationId": "GETNearbyCulture",
+        "parameters": [
+          {
+            "name": "$where",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          }
+        ]
+      }
+    }
+  },
+  "definitions": {},
+  "parameters": {},
+  "responses": {},
+  "securityDefinitions": {},
+  "security": [],
+  "tags": []
+}

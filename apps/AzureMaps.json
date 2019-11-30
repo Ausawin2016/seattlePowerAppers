@@ -1,0 +1,302 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "azureMapTimezone",
+    "description": "Azure Maps Custom Connector",
+    "version": "1.0"
+  },
+  "host": "atlas.microsoft.com",
+  "basePath": "/",
+  "schemes": [
+    "https"
+  ],
+  "consumes": [],
+  "produces": [],
+  "paths": {
+    "/timezone/byCoordinates/json": {},
+    "/GET https://atlas.microsoft.com/search/address/reverse/json": {},
+    "/search/address/reverse/json": {},
+    "/map/static/png": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {
+              "type": "string",
+              "title": "",
+              "format": "binary",
+              "x-ms-visibility": ""
+            },
+            "headers": {
+              "Content-Length": {
+                "description": "Content-Length",
+                "type": "integer"
+              },
+              "Content-Type": {
+                "description": "Content-Type",
+                "type": "string"
+              },
+              "x-ms-azuremaps-region": {
+                "description": "x-ms-azuremaps-region",
+                "type": "string"
+              },
+              "Strict-Transport-Security": {
+                "description": "Strict-Transport-Security",
+                "type": "string"
+              },
+              "X-Correlation-ID": {
+                "description": "X-Correlation-ID",
+                "type": "string"
+              },
+              "x-content-type-options": {
+                "description": "x-content-type-options",
+                "type": "string"
+              },
+              "Date": {
+                "description": "Date",
+                "type": "string"
+              }
+            }
+          }
+        },
+        "summary": "Get Map Image with Path",
+        "description": "Get Map Image with Path",
+        "operationId": "GETMapImageWithPins",
+        "parameters": [
+          {
+            "name": "format",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "default": "png",
+            "x-ms-visibility": "internal"
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "default": 1,
+            "x-ms-visibility": "internal"
+          },
+          {
+            "name": "subscription-key",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "layer",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "default": "basic",
+            "x-ms-visibility": "internal"
+          },
+          {
+            "name": "zoom",
+            "in": "query",
+            "required": false,
+            "type": "integer"
+          },
+          {
+            "name": "center",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "pins",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "height",
+            "in": "query",
+            "required": false,
+            "type": "integer"
+          },
+          {
+            "name": "width",
+            "in": "query",
+            "required": false,
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    "/search/fuzzy/json": {},
+    "/route/directions/json": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "formatVersion": {
+                  "type": "string",
+                  "description": "formatVersion"
+                },
+                "routes": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "summary": {
+                        "type": "object",
+                        "properties": {
+                          "lengthInMeters": {
+                            "type": "integer",
+                            "format": "int32",
+                            "description": "lengthInMeters"
+                          },
+                          "travelTimeInSeconds": {
+                            "type": "integer",
+                            "format": "int32",
+                            "description": "travelTimeInSeconds"
+                          },
+                          "trafficDelayInSeconds": {
+                            "type": "integer",
+                            "format": "int32",
+                            "description": "trafficDelayInSeconds"
+                          },
+                          "departureTime": {
+                            "type": "string",
+                            "description": "departureTime"
+                          },
+                          "arrivalTime": {
+                            "type": "string",
+                            "description": "arrivalTime"
+                          }
+                        },
+                        "description": "summary"
+                      },
+                      "legs": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "summary": {
+                              "type": "object",
+                              "properties": {
+                                "lengthInMeters": {
+                                  "type": "integer",
+                                  "format": "int32",
+                                  "description": "lengthInMeters"
+                                },
+                                "travelTimeInSeconds": {
+                                  "type": "integer",
+                                  "format": "int32",
+                                  "description": "travelTimeInSeconds"
+                                },
+                                "trafficDelayInSeconds": {
+                                  "type": "integer",
+                                  "format": "int32",
+                                  "description": "trafficDelayInSeconds"
+                                },
+                                "departureTime": {
+                                  "type": "string",
+                                  "description": "departureTime"
+                                },
+                                "arrivalTime": {
+                                  "type": "string",
+                                  "description": "arrivalTime"
+                                }
+                              },
+                              "description": "summary"
+                            },
+                            "points": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "latitude": {
+                                    "type": "number",
+                                    "format": "float",
+                                    "description": "latitude"
+                                  },
+                                  "longitude": {
+                                    "type": "number",
+                                    "format": "float",
+                                    "description": "longitude"
+                                  }
+                                }
+                              },
+                              "description": "points"
+                            }
+                          }
+                        },
+                        "description": "legs"
+                      },
+                      "sections": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "startPointIndex": {
+                              "type": "integer",
+                              "format": "int32",
+                              "description": "startPointIndex"
+                            },
+                            "endPointIndex": {
+                              "type": "integer",
+                              "format": "int32",
+                              "description": "endPointIndex"
+                            },
+                            "sectionType": {
+                              "type": "string",
+                              "description": "sectionType"
+                            },
+                            "travelMode": {
+                              "type": "string",
+                              "description": "travelMode"
+                            }
+                          }
+                        },
+                        "description": "sections"
+                      }
+                    }
+                  },
+                  "description": "routes"
+                }
+              }
+            }
+          }
+        },
+        "summary": "GETDistance",
+        "description": "GETDistance",
+        "operationId": "GETDistance",
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "default": 1,
+            "x-ms-visibility": "internal"
+          },
+          {
+            "name": "query",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "subscription-key",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          }
+        ]
+      }
+    }
+  },
+  "definitions": {},
+  "parameters": {},
+  "responses": {},
+  "securityDefinitions": {},
+  "security": [],
+  "tags": []
+}
