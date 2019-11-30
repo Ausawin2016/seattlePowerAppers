@@ -5,9 +5,9 @@ Resources for members (and non-members) of the Seattle PowerAppers Meetup Group.
 - Saturday November 30th 2019 11:00AM - 2:00PM
 - [Ballard Library](https://www.spl.org/hours-and-locations/ballard-branch)
 - [Instructions](./outlines/flowAutomation.md)
-- [Sample App](https://github.com/SeaDude/seattlePowerAppers/raw/master/apps/automateYourDay.zip)
-- [Seattle Cultural Spaces Custom Connector]()
-- [Azure Maps API Custom Connector]()
+- [Sample App](https://github.com/SeaDude/seattlePowerAppers/blob/master/apps/SeattleCulturalSpaces_20191126193806.zip)
+- [Seattle Cultural Spaces Custom Connector](https://github.com/SeaDude/seattlePowerAppers/blob/master/apps/SeattleCulturalSpaces.swagger.json)
+- [Azure Maps API Custom Connector](https://github.com/SeaDude/seattlePowerAppers/blob/master/apps/AzureMaps.json)
 
 ## [Meetup 11: Use PowerApps and Flow to Automate Your Day](https://www.meetup.com/Seattle-PowerAppers/events/263286228/)
 - Saturday October 19th 2019 11:00AM - 2:00PM
