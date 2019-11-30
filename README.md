@@ -4,7 +4,7 @@ Resources for members (and non-members) of the Seattle PowerAppers Meetup Group.
 ## [Meetup 12: Debugging, Troubleshooting and Supporting PowerApps](https://www.meetup.com/Seattle-PowerAppers/events/266327465/)
 - Saturday November 30th 2019 11:00AM - 2:00PM
 - [Ballard Library](https://www.spl.org/hours-and-locations/ballard-branch)
-- [Instructions](./outlines/flowAutomation.md)
+- [Instructions](./outlines/powerMaintainability.md)
 - [Sample App](https://github.com/SeaDude/seattlePowerAppers/blob/master/apps/SeattleCulturalSpaces_20191126193806.zip)
 - [Seattle Cultural Spaces Custom Connector](https://github.com/SeaDude/seattlePowerAppers/blob/master/apps/SeattleCulturalSpaces.swagger.json)
 - [Azure Maps API Custom Connector](https://github.com/SeaDude/seattlePowerAppers/blob/master/apps/AzureMaps.json)
