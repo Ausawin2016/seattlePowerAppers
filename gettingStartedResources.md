@@ -123,6 +123,8 @@ These are some great blogs to follow to get the latest, greatest PowerPlatform i
   - Excellent resources
 - [Dreaming in CRM](https://dreamingincrm.com/)
   - Technical deep dives and solutions for many Dynamics and PowerApps/Flow topics
+- [Colin Vermander](https://colinvermander.com/)
+  - Awesome CDS, Portals and Admin-focused resources. 
 
 ## Live Events
 
