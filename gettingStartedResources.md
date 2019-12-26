@@ -1,7 +1,7 @@
 # PowerApps support and learning resources
 
 - Created: Thu Nov 1 07:09:49 PDT 2018
-- Updated: Fri Nov 08 08:11:00 PST 2019
+- Updated: Thu Dec 26 13:15:00 PST 2019
 
 A curated list of the best resources to bookmark, follow and get up-to-speed with
 
