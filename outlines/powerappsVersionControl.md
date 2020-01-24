@@ -67,7 +67,7 @@ By the end of this class, attendees should:
 			- There is only one chance to copy this token
 			- Ideally, put the token in your password manager (KeyPass or the like)
 
-2. **Download the sample Flow from the Seattle PowerAppers Github repo**
+2. **Download the [sample Flow](https://github.com/SeaDude/seattlePowerAppers/raw/master/flows/POWERAPPS_GITHUB_VERSION_CONTROL.zip) from the Seattle PowerAppers Github repo**
 
 3. **Import the Flow to your tenant environment**
 - Go to `https://flow.microsft.com` and login
