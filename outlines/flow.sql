@@ -18,5 +18,3 @@ CREATE TABLE dbo.webResources
   -- specify more columns here
 );
 GO
-
-SELECT * FROM dbo.webResources

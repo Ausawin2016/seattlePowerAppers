@@ -81,6 +81,7 @@ Along with Triggers and Actions, Flow also features robust Monitoring, Run Histo
 
 To create Flows, you will need either:
 
+- A [qualifying Dynamics account]() 
 - A [qualifying Microsoft Office account](https://go.microsoft.com/fwlink/?LinkId=2085130&clcid=0x409) (see Appendix D) ($5-12.50/month)
 - A [standalone PowerApps license](https://powerapps.microsoft.com/en-us/pricing/) ($15-40/month)
 - A [PowerApps trial](https://docs.microsoft.com/en-us/powerapps/maker/signup-for-powerapps) (free, requires a non-personal email address)
