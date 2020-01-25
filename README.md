@@ -2,7 +2,7 @@
 Resources for members (and non-members) of the Seattle PowerAppers Meetup Group.
 
 ## [Meetup #13: PowerApps Version Control Using Github](https://www.meetup.com/Seattle-PowerAppers/events/267986040/)
-- Saturday January 25th 11:00AM - 2:00PM PDT 2020
+- Saturday January 25th 11:00AM - 1:00PM PDT 2020
 - [Southwest Library 9010 35th Ave SW, Seattle, WA 98126](https://www.google.com/maps/place/Southwest+Branch+-+The+Seattle+Public+Library/@47.5225296,-122.378476,17z/data=!3m1!4b1!4m5!3m4!1s0x5490415b59cb97e7:0xa0c0abe7087c7248!8m2!3d47.5225296!4d-122.3762873)
 - [Instructions](./outlines/powerappsVersionControl.md)
 - [Sample Flow](https://github.com/SeaDude/seattlePowerAppers/raw/master/flows/POWERAPPS_GITHUB_VERSION_CONTROL.zip)
