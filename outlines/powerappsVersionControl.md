@@ -86,22 +86,22 @@ By the end of this class, attendees should:
 4. **Lets dissect the Flow BEFORE running it (please :) )**
 
 - `Trigger`: 
-		- **Type**: Recurrance
-		- This flow runs every day at 3:00AM
-		- ![](./2020-01-23-17-55-26.png)
+	- **Type**: Recurrance
+	- This flow runs every day at 3:00AM
+	- ![](./2020-01-23-17-55-26.png)
 
 - `DOCS`: 
-		- **Type**: Compose
-		- Used to capture notes about the flow for anyone who inherits it
-		- ![](./2020-01-23-17-56-00.png)
+	- **Type**: Compose
+	- Used to capture notes about the flow for anyone who inherits it
+	- ![](./2020-01-23-17-56-00.png)
 
 - `SECRETS`
-		- **Type**: Compose
-		- Used to store the Github Personal Access Token.
-		- Click the three dots, then `Settings` then paste in your PAT as a Tracked Property
-		- **Inspiration**: [John Liu's blog post](https://johnliu.net/blog/2018/10/hiding-your-microsoft-flow-valuables-i-mean-variables-out-of-sight)
-		- **Note**: This only hides your PAT from visual inspection. The PAT is present in any export of the flow and also can be viewed by anyone with edit access. See [my community post here](https://powerusers.microsoft.com/t5/Building-Flows/BEST-PRACTICES-How-to-Protect-Secrets-in-Power-Automate/m-p/430981) for deeper discussion.
-		- ![](./2020-01-23-17-56-46.png)
+	- **Type**: Compose
+	- Used to store the Github Personal Access Token.
+	- Click the three dots, then `Settings` then paste in your PAT as a Tracked Property
+	- **Inspiration**: [John Liu's blog post](https://johnliu.net/blog/2018/10/hiding-your-microsoft-flow-valuables-i-mean-variables-out-of-sight)
+	- **Note**: This only hides your PAT from visual inspection. The PAT is present in any export of the flow and also can be viewed by anyone with edit access. See [my community post here](https://powerusers.microsoft.com/t5/Building-Flows/BEST-PRACTICES-How-to-Protect-Secrets-in-Power-Automate/m-p/430981) for deeper discussion.
+	- ![](./2020-01-23-17-56-46.png)
 
 - `INIT var's`
 		- **Type**: Initialize Variable
