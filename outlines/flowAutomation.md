@@ -16,7 +16,7 @@ Tags: meetup, powerapps, flow, automation
 - **Venue:** [Delridge Library 5423 Delridge Way SW Seattle, WA 98106](https://www.google.com/maps/search/?api=1&query=Delridge+Branch+-+The+Seattle+Public+Library%2C+5423+Delridge+Way+SW%2C+Seattle%2C+WA%2C+98106%2C+us&query_place_id=ChIJ3aIMp6lBkFQRoIT0hrJlwwk)
 - **To contribute energy:**
   - [Venmo](https://venmo.com/powerappsrocks)
-    - ![Venmo QR](./2019-09-20-21-49-22.png)
+    - ![Venmo QR](./2020-01-29-16-57-19.png)
   - [Patreon](https://patreon.com/powerappsrocks)
     - ![Patreon QR](./2019-09-20-21-50-39.png)
 - **To contact me directly:**
