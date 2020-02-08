@@ -188,7 +188,14 @@ Connectors may or may not leverage the [On-Prem Data Gateway](https://docs.micro
 
 ## Developing your first PowerApp
 
-Hands-on Demo!!
+Hands on demo!!
+
+Import the Sample App into your PowerApps environment
+
+1. Download the Sample App [here](https://github.com/SeaDude/seattlePowerAppers/raw/master/apps/powerappsForAbsoluteBeginners.msapp)
+2. Visit `create.powerapps.com`
+3. Click `Open` then `Browse` and select the Sample App you downloaded
+4. Click `Allow` on all connections
 
 ## Publishing your first PowerApp
 
