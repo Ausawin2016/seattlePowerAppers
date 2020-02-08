@@ -1,6 +1,12 @@
 # Seattle PowerAppers
 Resources for members (and non-members) of the Seattle PowerAppers Meetup Group.
 
+## [Meetup #14: PowerApps For Absolute Beginners](https://www.meetup.com/Seattle-PowerAppers/events/268226299/)
+- Saturday February 8th 11:00AM - 1:00PM PDT 2020
+- [Delridge Library](https://www.spl.org/hours-and-locations/delridge-branch)
+- [Instructions](./outlines/powerappsForBeginners.md)
+- [Sample App](https://github.com/SeaDude/seattlePowerAppers/raw/master/apps/powerappsForAbsoluteBeginners.msapp)
+
 ## [Special Edition!: MTX Portland: Interactive Maps for Canvas Apps Using Solutions](https://impactflow.com/mtx-portland)
 - Thursday January 30th 3:00PM
 - [Oregon Convention Center](https://www.google.com/maps/place/Oregon+Convention+Center/@45.5275455,-122.6641782,17z/data=!3m1!4b1!4m5!3m4!1s0x5495a0adc5ff1af5:0x610cf37babf5b9df!8m2!3d45.5275418!4d-122.6619895)
