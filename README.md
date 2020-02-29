@@ -1,6 +1,11 @@
 # Seattle PowerAppers
 Resources for members (and non-members) of the Seattle PowerAppers Meetup Group.
 
+## [Meetup #15: Advanced PowerApps User Metrics and Logging](https://www.meetup.com/Seattle-PowerAppers/events/268972536/)
+- Saturday February 29th 11:00AM - 1:00PM PDT 2020
+- [Delridge Library](https://www.spl.org/hours-and-locations/delridge-branch)
+- [Instructions](./outlines/advancedMetrics.md)
+
 ## [Meetup #14: PowerApps For Absolute Beginners](https://www.meetup.com/Seattle-PowerAppers/events/268226299/)
 - Saturday February 8th 11:00AM - 1:00PM PDT 2020
 - [Delridge Library](https://www.spl.org/hours-and-locations/delridge-branch)
