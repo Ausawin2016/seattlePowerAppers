@@ -78,6 +78,8 @@ To begin collecting metrics from a given PowerApp, you just need to add the AppI
 - Visit `make.powerapps.com` and open the app you'd like to track in Edit mode
   - **HINT:** The more screens your app has, the more interesting the metrics will be at this point.
 - Click the `App` control in the `Tree View` (1) then paste your Instrument Key in the field shown below (2)
+- **NOTE:** YOu should only paste in the key part, not `Instrumentationkey=`.
+- **Example:** 3a35353-5f66-445bd-8452-1b454500d7d
 ![](./2020-02-27-21-59-29.png)
 - Click `File` then `Save` then `Publish`
 
