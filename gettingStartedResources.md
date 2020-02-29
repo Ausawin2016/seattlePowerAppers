@@ -1,17 +1,17 @@
 # PowerApps support and learning resources
 
 - Created: Thu Nov 1 07:09:49 PDT 2018
-- Updated: Thu Dec 26 13:15:00 PST 2019
+- Updated: Thu Feb 27 18:32:00 PST 2020
 
 A curated list of the best resources to bookmark, follow and get up-to-speed with
 
 ## PowerPlatform Documentation
 
 - [Official (AWESOME!) Documentation](https://docs.microsoft.com/en-us/powerapps/powerapps-overview)
-- [Newer Feature: Responsive Design](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/create-responsive-layout)
-- [Newer Feature: Canvas App Components](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/create-component)
+- [Responsive Design](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/create-responsive-layout)
+- [Canvas App Components](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/create-component)
 - [Develop Offline Applications](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/offline-apps)
-- [Newer Feature: AI Builder](https://docs.microsoft.com/en-us/ai-builder/overview)
+- [AI Builder](https://docs.microsoft.com/en-us/ai-builder/overview)
 
 ## System Requirements
 
@@ -19,6 +19,7 @@ A curated list of the best resources to bookmark, follow and get up-to-speed wit
   
 ## PowerPlatform Licensing
 
+- [Latest Pricing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)
 - [Pricing](https://powerapps.microsoft.com/en-us/pricing/)
 - [O365 Plans that include PowerApps](https://docs.microsoft.com/en-gb/powerapps/administrator/pricing-billing-skus#licenses)
 
