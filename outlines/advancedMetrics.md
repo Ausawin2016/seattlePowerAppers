@@ -94,6 +94,7 @@ Unless you have an app deployed in production to an active user base, you will n
 ### View AppInsights Logs and Metrics
 
 - Navigate back to the `Overview` screen of your AppInsights service in Azure
+- **NOTE:** The default metric cards will not show any data. Don't be confused by this. We'll dig into other reports to see the metrics.
 - Click `Workbooks` then `Analysis of Page Views`
 ![](./2020-02-27-22-23-37.png)
 - Scroll through the available analytics and be amazed!
